@@ -18,6 +18,7 @@
 		26BB819D2BDD7FAA005DEEC0 /* RecipesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BB819C2BDD7FAA005DEEC0 /* RecipesResponse.swift */; };
 		26BB81A12BDD83FE005DEEC0 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BB819F2BDD83FE005DEEC0 /* RecipeListViewController.swift */; };
 		26BB81A22BDD83FE005DEEC0 /* RecipeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26BB81A02BDD83FE005DEEC0 /* RecipeListViewController.xib */; };
+		26BB81A52BDD9A87005DEEC0 /* RecipeNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BB81A42BDD9A87005DEEC0 /* RecipeNetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		26BB819C2BDD7FAA005DEEC0 /* RecipesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesResponse.swift; sourceTree = "<group>"; };
 		26BB819F2BDD83FE005DEEC0 /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
 		26BB81A02BDD83FE005DEEC0 /* RecipeListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeListViewController.xib; sourceTree = "<group>"; };
+		26BB81A42BDD9A87005DEEC0 /* RecipeNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				26BB81722BDD7C67005DEEC0 /* CoreDataExample.xcdatamodeld */,
 				26BB819E2BDD83DF005DEEC0 /* Models */,
 				26BB81A32BDD840A005DEEC0 /* ViewControllers */,
+				26BB81A62BDD9A8F005DEEC0 /* Services */,
 			);
 			path = CoreDataExample;
 			sourceTree = "<group>";
@@ -147,6 +150,14 @@
 				26BB81A02BDD83FE005DEEC0 /* RecipeListViewController.xib */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26BB81A62BDD9A8F005DEEC0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				26BB81A42BDD9A87005DEEC0 /* RecipeNetworkService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 				26BB819D2BDD7FAA005DEEC0 /* RecipesResponse.swift in Sources */,
 				26BB816A2BDD7C67005DEEC0 /* AppDelegate.swift in Sources */,
 				26BB816C2BDD7C67005DEEC0 /* SceneDelegate.swift in Sources */,
+				26BB81A52BDD9A87005DEEC0 /* RecipeNetworkService.swift in Sources */,
 				26BB81742BDD7C67005DEEC0 /* CoreDataExample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
