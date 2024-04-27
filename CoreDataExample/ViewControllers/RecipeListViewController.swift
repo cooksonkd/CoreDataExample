@@ -18,7 +18,6 @@ class RecipeListViewController: UIViewController {
             let result = await self.networkService.fetchRecipes()
             self.setRecipes(using: result)   
             guard self.recipes.isEmpty == false else { return }
-            print(self.recipes)
         }
     }
     
@@ -27,6 +26,7 @@ class RecipeListViewController: UIViewController {
         case .success(let recipes):
             self.recipes = recipes
         case .failure(let error):
+            // TODO: Show error alert/action-sheet to user
             print("Error: ", error)
         }
     }
