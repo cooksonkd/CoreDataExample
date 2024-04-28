@@ -7,7 +7,6 @@
 
 import Foundation
 
-// MARK: -
 class RecipeNetworkService {
     
     /// Fetches recipes from the api.
@@ -25,7 +24,7 @@ class RecipeNetworkService {
     
 }
 
-// MARK: -
+// MARK: - Enum
 enum RecipeError: Error {
     case failedToGetRecipes
 }
